@@ -1,6 +1,10 @@
-# OS Engine
+# OS Engine (E2)
 
-Go backend for the Operating System Engine. (5th Sem Mini Project)
+Go backend for the Operating System Engine.
 
-Add packages and modules as their requirements are confirmed. Keep the executable
-entry point in `cmd/os-engine`.
+## Development
+
+- `make run` starts the E2 entry point.
+- `make test` runs the Go tests.
+- `make race` runs tests with the race detector.
+- `make vet` runs `go vet`.
